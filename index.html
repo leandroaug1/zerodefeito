@@ -4,30 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed Google Apps Script</title>
+    <title>Carregando...</title>
+
+    <!-- Redireciona automaticamente -->
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbxyU56u9NHCbC3qQ9dI1_8SJlXd5JvfI9XAGHs8KU81FWulmVvaDyhPykbqy3E0JJ0wJA/exec">
+
     <style>
-        body {
-            margin: 0;
-            padding: 0;
+                   justify-content: center;
             height: 100vh;
-            width: 100vw;
-            overflow: hidden;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            margin: 0;
+            color: #333;
+            text-align: center;
         }
-        .container {
-            width: 100%;
-            height: 100%;
+        .loader {
+            border: 6px solid #ddd;
+            border-top: 6px solid #4CAF50;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 15px;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <iframe src="https://script.google.com/macros/s/AKfycbxyU56u9NHCbC3qQ9dI1_8SJlXd5JvfI9XAGHs8KU81FWulmVvaDyhPykbqyc</iframe>
-    </div>
-</
+
+    <div class="loader"></div>
+    <h2>Carregando aplicação...</h2>
+    <p>Você será redirecionado automaticamente.</p>
+
+</body>
+</html>
